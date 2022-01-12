@@ -18,6 +18,6 @@
 	</div>
 	<dl id="wb-dtmd">
 		<dt>{{ i18nText-dateModified }}</dt>
-		<dd><time property="dateModified">{{ page.dateModified }}</time></dd>
+		<dd><time property="dateModified">{{ site.time | date: "%Y-%m-%d" }}</time></dd>
 	</dl>
 </div>
